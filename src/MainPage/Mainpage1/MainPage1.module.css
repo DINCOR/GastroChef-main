@@ -1,0 +1,857 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;500;700;800&display=swap');
+
+/* ─── Globals ────────────────────────────────────────────────────────────────*/
+
+body {
+    background-image: url(../assets/Ellipse\ 100.png);
+    background-repeat: no-repeat;
+    background-position: top right -200px;
+    background-size: 60%;
+    overflow-x: hidden;
+}
+
+main {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* ─── Left Menu ──────────────────────────────────────────────────────────────*/
+
+.LeftMenu {
+    width:70px;
+    height: 670px;
+    left: 50px;
+    position: absolute;
+    transform: translateX(4vw);
+    top: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+    transform: translateY(-85px);
+}
+
+.LeftMenuCircle {
+    width: 70px;
+    height: 70px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px rgba(88, 88, 88, 0.253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ─── Hero Section ───────────────────────────────────────────────────────────*/
+
+.MainGde {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.conteiner2 {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteiner21 {
+    width: 45%;
+    height: 60%;
+}
+
+.conteiner21text {
+    text-align: left;
+}
+
+.detoxtext {
+    width: 477px;
+    height: 135px;
+    font-size: 40px;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 700;
+}
+
+.gren,
+.greendetox {
+    color: #64D370;
+}
+
+.butilka {
+    width: 454px;
+    height: 27px;
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.conteiner211 {
+    width: 90%;
+    height: 100px;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 42px;
+    
+}
+
+.conteiner211 button {
+    font-family: "Comfortaa", sans-serif;
+    width: 280px;
+    height: 60px;
+    background: #64D370;
+    border: none;
+    box-shadow: 0px 0px 20px rgba(88, 88, 88, 0.301);
+    border-radius: 190px;
+    color: white;
+    font-size: 26px;
+    cursor: pointer;
+    margin-left: 0;
+}
+
+.conteiner212 {
+    width: 222px;
+    height: 27px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    margin-left: 30px;
+    
+}
+
+.conteiner212Green {
+    font-family: 'Montserrat', sans-serif;
+    color: #64D370;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.conteiner22 {
+    position: relative;
+}
+
+.conteiner22::before {
+    content: '';
+    position: absolute;
+    right: -780px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1293px;
+    height: 1293px;
+    box-shadow: 0px 0px 20px rgba(58, 58, 58, 0.459);
+    background: #64D370;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.conteiner22Round {
+    position: relative;
+    z-index: 1;
+}
+
+.avokado {
+    position: absolute;
+    top: -100px;
+    left: -50px;
+    transform: translate(-50%, -50%);
+    width: 624px;
+    height: 624px;
+    border-radius: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.avokado::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 20px rgba(58, 58, 58, 0.459);
+    width: 540px;        
+    height: 540px;
+    background: #fff;    
+    border-radius: 50%;
+    z-index: -1;         
+}
+ 
+.avokado img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.infomarketing {
+    width: 1286px;
+    height: 220px;
+    background-color: #ffffff72;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 315px;
+    margin-right: 318px;
+    margin-top: 210px;
+    gap: 27px;
+    text-align: center;
+
+}
+
+.card1text1 {
+    width: 143.56px;
+    height: 33.56px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+
+
+}
+
+.card2text2 {
+    width: 175.25px;
+    height: 33.56px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.card3text3  {
+    width: 158.47px;
+    height: 33.56px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.card4text4  {
+    width: 206.0px;
+    height: 33.56px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.card5text5  {
+    width: 158.47px;
+    height: 50.34px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.card6text6  {
+    width: 180.58px;
+    height: 50.34px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.buttons {
+    margin-top: 100px;
+}
+
+.grenbtnpit {
+    width: 580px;
+    height: 62px;
+    border-radius: 190px;
+    border: none;
+    background-color: #64D370;
+    box-shadow: 0px 0px 20px rgba(58, 58, 58, 0.303);
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+
+.graybtnpit {
+    width: 580px;
+    height: 62px;
+    border-radius: 190px;
+    border: none;
+    background-color: #DEE6EE;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    margin-left: 20px;
+}
+
+.categoryprogram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 700;
+    gap: 91px;
+    margin-top: 70px;
+    line-height: 1.6;
+    
+}
+
+.cattext {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cat1 {
+    width: 120px;
+    height: 44px;
+}
+.cat2 {
+    width: 70px;
+    height: 44px;
+}
+.cat3 {
+    width: 90px;
+    height: 44px;
+    color: #64D370;
+}
+.cat4 {
+    width: 91px;
+    height: 44px;
+}
+.cat5 {
+    width: 106px;
+    height: 44px;
+}
+.cat6 {
+    width: 81px;
+    height: 44px;
+}
+.cat7 {
+    width: 83px;
+    height: 44px;
+}
+
+.GreencardFitness {
+    width: 380px;
+    height: 250px;
+    background-color: #64D370;
+    border-radius: 30px;
+    color: #F5FAFF;
+    box-shadow: 0px 0px 20px rgba(58, 58, 58, 0.303);
+    margin-bottom: 20px;
+    margin-left: 370px; 
+    margin-top: 50px;
+}
+
+.GreencardFitnessdiv {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.grencardtext1 {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    width: 113px;
+    height: 28px;
+    display: flex;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.grencardtext2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 20px;
+    text-align: left;
+    width: 90px;
+    height: 20px;
+    white-space: nowrap;
+    
+}
+
+.greencardtext3 {
+    width: 280px;
+    height: 134px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    padding-top: 19px;
+    padding-left: 50px;
+}
+
+.priceWraper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.priceList {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.priceRow {
+    width: 370px;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1fr;
+    gap: 15px;
+    align-items: center;
+}
+
+.priceLabel {
+    width: 135px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #333;
+    text-align: left;
+    
+}
+
+.oldPrice {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: line-through;
+    text-align: center;
+    width: 56px;
+    height: 18px;
+    margin-left: 40px;
+}
+
+.oldPriceNone {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+    width: 56px;
+    height: 18px;
+    margin-left: 40px;
+}
+
+.currentPrice {
+    width: 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000;
+    text-align: right;
+}
+
+.orderButton {
+    background-color: #63c06d; /* Тот же зеленый, что у карточки */
+    color: white;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 24px;
+    padding: 15px 60px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 10px 25px rgba(99, 192, 109, 0.4);
+    transition: transform 0.2s ease;
+}
+
+
+
+.programcontent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.calendary {
+    width: 780px;
+    height: 55px;
+    background-color: #F5FAFF;
+    box-shadow: 0px 0px 20px rgba(58, 58, 58, 0.303);
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.calendarytext {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    gap: 69px;
+    padding-left: 50px;
+    padding-top: 16px;
+}
+
+.cale1 {
+    color: #64D370;
+}
+
+.rightside {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1;
+}
+
+.mealSchedule {
+    width: 780px;
+    height: 525px;
+    background-color: #F5FAFF;
+    box-shadow: 0px 0px 20px rgba(58, 58, 58, 0.303);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    row-gap: 30px;
+    column-gap: 20px;
+    padding: 20px 0;
+}
+/* ─── Meal Schedule ──────────────────────────────────────────────────────────*/
+
+.scheduleItem {
+    display: grid;
+    grid-template-columns: 160px 1fr 80px;
+    align-items: start;
+    padding: 15px 40px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.scheduleItem:last-child {
+    border-bottom: none;
+}
+
+.mealMeta {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.mealTitle {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 400;
+}
+
+.mealTime {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    font-weight: 300;
+    color: #000000;
+    margin: 0;
+}
+
+.mealDishes {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.mealDishes p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 3 0px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.mealWeights {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    text-align: right;
+}
+
+.mealWeights p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    font-weight: 300;
+    margin: 0;
+    color: #000000;
+}
+
+.titlephoto {
+    width: 1920px;
+    height: 33px;
+    font-family: 'Comfortaa', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+
+.photoscroll {
+    
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    gap: -20px;
+    transform: translateX(-50px);
+}
+
+.orderFaqSection {
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+ 
+.orderFaqContainer {
+    width: 1286px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 80px;
+    margin-left: 315px;
+    margin-right: 318px;
+}
+ 
+/* ─── Form Col ───────────────────────────────────────────────────────────────*/
+ 
+.formCol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+}
+ 
+.formTitle {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #020202;
+    margin: 0 0 8px;
+    margin-left: 50px;
+    text-align: center;
+}
+ 
+.formSubtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #020202;
+    margin: 0 0 32px;
+    margin-left: 50px;
+    text-align: center;
+    line-height: 1.3;
+}
+ 
+.fieldGroup {
+    width: 100%;
+    max-width: 340px;
+    margin-bottom: 16px;
+}
+ 
+.fieldLabelGreen {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #64D370;
+    text-align: left;
+    margin: 0 14px 6px;
+}
+ 
+.fieldLabelRed {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #F87676;
+    text-align: left;
+    margin: 20px 14px 6px
+    ;
+}
+ 
+.inputWrapper {
+    width: 418px;
+    height: 40px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+ 
+.input {
+    width: 418px;
+    height: 40px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 190px;
+    background: #DEE6EE;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    outline: none;
+    box-sizing: border-box;
+}
+ 
+.inputDotGreen {
+    position: absolute;
+    right: 14px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #64D370;
+    flex-shrink: 0;
+}
+ 
+.inputDotRed {
+    position: absolute;
+    right: 14px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #F87676;
+    flex-shrink: 0;
+}
+ 
+.checkboxGroup {
+    width: 100%;
+    max-width: 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 28px;
+    margin-top: 18px;
+}
+ 
+.checkboxRow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+ 
+.checkDotGreen {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 7px #DEE6EE;
+    background: #64D370;
+    flex-shrink: 0;
+    margin-right: 27px;
+    margin-left: 20px;
+}
+ 
+.checkLabel {
+    width: 330px;
+    height: 21px;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    color: #000000;
+    white-space: nowrap;
+
+}
+ 
+.checkLink {
+    width: 236px;
+    color: #64D370;
+    cursor: pointer;
+    
+}
+ 
+.btnOutline {
+    width: 298px;
+    height: 60px;
+    border: 3px solid #64D370;
+    border-radius: 190px;
+    background: transparent;
+    color: #64D370;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    cursor: pointer;
+}
+ 
+.orDivider {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+
+    color: #1a1a1a;
+    margin: 12px 0;
+    text-align: center;
+}
+ 
+.btnFilled {
+    width: 324px;
+    height: 60px;
+    border: none;
+    border-radius: 190px;
+    background: #64D370;
+    color: #fff;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(58, 58, 58, 0.303);
+}
+ 
+/* ─── FAQ Col ────────────────────────────────────────────────────────────────*/
+ 
+.faqCol {
+    flex: 1;
+}
+ 
+.faqTitle {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #020202;
+    margin: 0 0 24px;
+}
+ 
+.faqList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+ 
+.faqItem {
+    width: 680px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 190px;
+    padding: 0px 20px;
+    box-shadow: 0px 0px 20px rgba(58, 58, 58, 0.195);
+    cursor: pointer;
+}
+ 
+.faqText {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+ 
+.faqArrow {
+    font-size: 22px;
+    color: #999;
+    line-height: 1;
+}

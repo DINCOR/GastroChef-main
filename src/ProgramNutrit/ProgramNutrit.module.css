@@ -1,0 +1,262 @@
+/* Общий контейнер */
+.pageContainer {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #333333;
+
+  min-height: 100vh;
+  padding-bottom: 60px;
+}
+
+/*Заглушки */
+.heroImagePlaceholder {
+  width: 100%;
+  max-width: 40vw;
+  height: 350px;
+  margin: 0 auto;
+  background-color: #e2e8f0;
+  border-radius: 40px 40px 40px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #64748b;
+  font-weight: 500;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+.heroImagePlaceholder img{
+  width: 100%;
+}
+
+.inlineImagePlaceholder {
+  width: 100%;
+  max-width: 40vw;
+  height: 350px;
+  margin: 0 auto;
+  background-color: #e2e8f0;
+  border-radius: 40px 40px 40px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #64748b;
+  font-weight: 500;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+.inlineImagePlaceholder img{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.cardImageWrapper {
+  width: 100%;
+  height: 180px;
+  border-radius: 16px;
+  overflow: hidden; 
+  margin-bottom: 16px;
+  background-color: #e2e8f0; 
+}
+
+
+.cardImage {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* --- Контент статьи --- */
+.articleContent {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.articleHeader {
+    display: flex;
+    align-self: start;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titleRow {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.titleLeft {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+
+
+
+
+
+
+
+
+.iconButton {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #e2e8f0;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #333;
+  margin-top: 4px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.dateBlock {
+  margin-left: 48px; /* Выравнивание под текстом заголовка, учитывая кнопку 'назад' */
+}
+
+.date {
+  font-size: 13px;
+  color: #94a3b8;
+}
+
+.shareBlock {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.shareText {
+  font-size: 14px;
+  color: #64748b;
+  margin-right: 4px;
+}
+
+.socialIcon {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: #1a1a1a;
+  color: #fff;
+  border: none;
+  font-size: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textContent {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #475569;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textContent p {
+    display: flex;
+    margin: 10px;
+}
+
+/* --- Нижний блок (Футер статьи) --- */
+.footerActions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+  padding-top: 30px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.backButtonText {
+  background: none;
+  border: none;
+  color: #64748b;
+  font-size: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ctaButton {
+  background-color: #5ec363; /* Зеленый цвет кнопки из макета */
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 14px 32px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(94, 195, 99, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.ctaButton:hover {
+  transform: translateY(-2px);
+}
+
+/* --- Блок "Вас может заинтересовать" --- */
+.relatedSection {
+  max-width: 1000px;
+  margin: 60px auto 0;
+  padding: 0 20px;
+}
+
+.relatedTitle {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.cardsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+.card {
+  background-color: transparent;
+}
+
+.cardTitle {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 16px 0;
+  line-height: 1.4;
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.moreButton {
+  background-color: transparent;
+  border: 1px solid #5ec363;
+  color: #5ec363;
+  border-radius: 20px;
+  padding: 6px 16px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.moreButton:hover {
+  background-color: #5ec363;
+  color: white;
+}
