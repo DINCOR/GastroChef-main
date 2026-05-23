@@ -70,8 +70,13 @@ return (
                     и проф. образованием, вместе с диетологом разработали рационы правильного питания 
                     с подсчетом калорий (КБЖУ).
                     </p>
+<<<<<<< HEAD
                 </div>
             <p className={classes.HistoryBot}>Знакомтесь! Команда GastroChef!</p>
+=======
+                    <p className={classes.HistoryBot}>Знакомтесь! Команда GastroChef!</p>
+                </div>
+>>>>>>> 5e3aac2 (first commit)
         </div>
     </div>
 </section >
@@ -91,8 +96,13 @@ return (
                     <p className={classes.HistoryMidtree}>Все продукты для приготовления правильного питания закупаются только с сертификатами, а рационы готовятся на современной и безопасной кухне ночью перед приездом к Вам!</p>
                     <p className={classes.HistoryBottreebolt}>Друзья, если у Вас остались вопросы Вы с легкостью можете позвонить нам или написать мне лично в Инстаграм или Фейсбук.
                     </p>
+<<<<<<< HEAD
                 </div>
             <p className={classes.HistoryBottree}>С уважением, Кобылинский Кирилл.</p>
+=======
+                    <p className={classes.HistoryBottree}>С уважением, Кобылинский Кирилл.</p>
+                </div>
+>>>>>>> 5e3aac2 (first commit)
 
             <div className={classes.BotSocSety}>
                 <img src="src\assets\Group 236.png" alt="" />

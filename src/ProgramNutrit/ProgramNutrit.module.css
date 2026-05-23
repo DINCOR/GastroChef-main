@@ -1,17 +1,28 @@
 /* Общий контейнер */
 .pageContainer {
+<<<<<<< HEAD
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   color: #333333;
 
+=======
+  color: #333333;
+>>>>>>> 5e3aac2 (first commit)
   min-height: 100vh;
   padding-bottom: 60px;
 }
 
+<<<<<<< HEAD
 /*Заглушки */
 .heroImagePlaceholder {
   width: 100%;
   max-width: 40vw;
   height: 350px;
+=======
+
+.heroImagePlaceholder {
+  width: 100%;
+  
+>>>>>>> 5e3aac2 (first commit)
   margin: 0 auto;
   background-color: #e2e8f0;
   border-radius: 40px 40px 40px 40px;
@@ -21,6 +32,10 @@
   color: #64748b;
   font-weight: 500;
   box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+<<<<<<< HEAD
+=======
+  
+>>>>>>> 5e3aac2 (first commit)
 }
 .heroImagePlaceholder img{
   width: 100%;
@@ -62,11 +77,19 @@
   display: block;
 }
 
+<<<<<<< HEAD
 /* --- Контент статьи --- */
+=======
+
+>>>>>>> 5e3aac2 (first commit)
 .articleContent {
   max-width: 800px;
   margin: 40px auto;
   padding: 0 20px;
+<<<<<<< HEAD
+=======
+  text-align: left;
+>>>>>>> 5e3aac2 (first commit)
 }
 
 .articleHeader {
@@ -78,6 +101,10 @@
 }
 
 .titleRow {
+<<<<<<< HEAD
+=======
+  font-family: "Monsterrat", sans-serif;
+>>>>>>> 5e3aac2 (first commit)
   width: 90%;
   display: flex;
   justify-content: space-between;
@@ -86,12 +113,17 @@
 }
 
 .titleLeft {
+<<<<<<< HEAD
+=======
+  font-family: "Comfortaa", sans-serif;
+>>>>>>> 5e3aac2 (first commit)
   display: flex;
   align-items: flex-start;
   gap: 16px;
 }
 
 
+<<<<<<< HEAD
 
 
 
@@ -99,6 +131,8 @@
 
 
 
+=======
+>>>>>>> 5e3aac2 (first commit)
 .iconButton {
   width: 32px;
   height: 32px;
@@ -126,6 +160,10 @@
 }
 
 .date {
+<<<<<<< HEAD
+=======
+  font-family: 'Montserrat';
+>>>>>>> 5e3aac2 (first commit)
   font-size: 13px;
   color: #94a3b8;
 }
@@ -157,20 +195,36 @@
 }
 
 .textContent {
+<<<<<<< HEAD
+=======
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+>>>>>>> 5e3aac2 (first commit)
   font-size: 16px;
   line-height: 1.6;
   color: #475569;
   display: flex;
   flex-direction: column;
   align-items: center;
+<<<<<<< HEAD
+=======
+  text-align: left;
+>>>>>>> 5e3aac2 (first commit)
 }
 
 .textContent p {
     display: flex;
     margin: 10px;
+<<<<<<< HEAD
 }
 
 /* --- Нижний блок (Футер статьи) --- */
+=======
+    text-align: left;
+}
+
+
+>>>>>>> 5e3aac2 (first commit)
 .footerActions {
   display: flex;
   justify-content: space-between;
